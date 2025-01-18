@@ -10,7 +10,6 @@ export default class ContextMenu extends Component {
         const { style } = this.props;
         return (
             <div style={style} className='custom-context'>
-                
                 <div className='context-item' onClick={()=>this.handleClick('king')}>
                     <img src='/images/black/king.png' className='item-img' />
                     <h4 className='item-text'>King</h4>
